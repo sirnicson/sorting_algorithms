@@ -32,31 +32,33 @@ Each algorithm has a separate `.c` file and a corresponding complexity file (e.g
 sorting_algorithms/
 │
 ├── README.md
-│
-├── bubble_sort.c
-├── insertion_sort.c
-├── selection_sort.c
-├── quick_sort.c
-├── shell_sort.c
-├── cocktail_sort.c
-├── counting_sort.c
-├── merge_sort.c
-├── heap_sort.c
-├── radix_sort.c
-├── bitonic_sort.c
+├── sort.h
+├── 0-bubble_sort.c
+├── 1-insertion_sort.c
+├── 2-selection_sort.c
+├── 3-quick_sort.c
+├── 100-shell_sort.c
+├── 101-cocktail_sort.c
+├── 102-counting_sort.c
+├── 103-merge_sort.c
+├── 104-heap_sort.c
+├── 105-radix_sort.c
+├── 106-bitonic_sort.c
+├── 107-quick_sort_hoare.c
+├── 1000-sort_deck.c
+├── deck.h
 │
 └── O/
     ├── 0-O              # Complexity for Bubble Sort
     ├── 1-O              # Complexity for Insertion Sort
     ├── 2-O              # Complexity for Selection Sort
     ├── 3-O              # Complexity for Quick Sort
-    ├── 4-O              # Complexity for Shell Sort
-    ├── 5-O              # Complexity for Cocktail Sort
-    ├── 6-O              # Complexity for Counting Sort
-    ├── 7-O              # Complexity for Merge Sort
-    ├── 8-O              # Complexity for Heap Sort
-    ├── 9-O              # Complexity for Radix Sort
-    └── 10-O             # Complexity for Bitonic Sort
+    ├── 101-O            # Complexity for Cocktail Sort
+    ├── 102-O            # Complexity for Counting Sort
+    ├── 103-O            # Complexity for Merge Sort
+    ├── 104-O            # Complexity for Heap Sort
+    ├── 106-O            # Complexity for Bitonic Sort
+    └── 107-O            # Complexity for Quick Sort Hoare
 ```
 
 ## Testing
