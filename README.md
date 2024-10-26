@@ -28,7 +28,5 @@ Each algorithm has a separate `.c` file and a corresponding complexity file (e.g
 ## Testing
 
 ```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o sort
-
-./sort
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o sort && ./sort
 ```
