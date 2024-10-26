@@ -25,6 +25,41 @@ This project implements various sorting algorithms in C, highlighting their effi
 
 Each algorithm has a separate `.c` file and a corresponding complexity file (e.g., `0-O` for Bubble Sort) explaining the Big O notation.
 
+
+## Project Structure
+
+```plaintext
+sorting_algorithms/
+│
+├── README.md
+├── AUTHORS
+│
+├── bubble_sort.c
+├── insertion_sort.c
+├── selection_sort.c
+├── quick_sort.c
+├── shell_sort.c
+├── cocktail_sort.c
+├── counting_sort.c
+├── merge_sort.c
+├── heap_sort.c
+├── radix_sort.c
+├── bitonic_sort.c
+│
+└── O/
+    ├── 0-O              # Complexity for Bubble Sort
+    ├── 1-O              # Complexity for Insertion Sort
+    ├── 2-O              # Complexity for Selection Sort
+    ├── 3-O              # Complexity for Quick Sort
+    ├── 4-O              # Complexity for Shell Sort
+    ├── 5-O              # Complexity for Cocktail Sort
+    ├── 6-O              # Complexity for Counting Sort
+    ├── 7-O              # Complexity for Merge Sort
+    ├── 8-O              # Complexity for Heap Sort
+    ├── 9-O              # Complexity for Radix Sort
+    └── 10-O             # Complexity for Bitonic Sort
+```
+
 ## Testing
 
 ```bash
