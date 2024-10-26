@@ -32,7 +32,6 @@ Each algorithm has a separate `.c` file and a corresponding complexity file (e.g
 sorting_algorithms/
 │
 ├── README.md
-├── AUTHORS
 │
 ├── bubble_sort.c
 ├── insertion_sort.c
