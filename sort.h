@@ -37,5 +37,8 @@ void swap(int *array, size_t a, size_t b);
 void bitonic_merge(int *array, size_t low, size_t cnt, int dir);
 void bitonic_sort_recursive(int *array, size_t low, size_t cnt, int dir);
 void bitonic_sort(int *array, size_t size);
+int hoare_partition(int *array, size_t low, size_t high);
+void quick_sort_recursive(int *array, size_t low, size_t high);
+void quick_sort_hoare(int *array, size_t size);
 
 #endif /* SORT_H */
