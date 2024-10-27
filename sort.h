@@ -30,5 +30,8 @@ void swap(int *array, size_t a, size_t b);
 void sift_down(int *array, size_t start, size_t end);
 void heapify(int *array, size_t size);
 void heap_sort(int *array, size_t size);
+void counting_sort_for_radix(int *array, size_t size, int place);
+int get_max(int *array, size_t size);
+void radix_sort(int *array, size_t size);
 
 #endif /* SORT_H */
