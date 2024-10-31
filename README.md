@@ -62,9 +62,3 @@ sorting_algorithms/
     ├── 106-O            # Complexity for Bitonic Sort
     └── 107-O            # Complexity for Quick Sort Hoare
 ```
-
-## Testing
-
-```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o sort && ./sort
-```
